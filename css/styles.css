@@ -1,0 +1,61 @@
+
+
+
+
+
+
+
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: none;
+}
+
+
+
+video {
+  order: 1;
+  width: 100%;
+  height: auto;
+  max-width: 1440px;
+  padding-top: 5em;
+}
+
+
+h2 {
+  order: 2;
+  font-family: 'Gill sans', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 150%;
+  color: #ccc;
+}
+
+
+a:link {
+  transition: color 0.7s ease;
+  color: #ccc;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: #f1989b; 
+  text-decoration: none;
+}
+
+
+
+body {
+  padding: 0em; 
+  background-color: none;
+}
